@@ -1,0 +1,89 @@
+.remove-margin-on-row{
+    margin-bottom: 0px;
+}
+.icon-extra-margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.additional-top-margin{
+    margin-top: 20px;
+}
+.left-margin{
+    margin-left:35px
+}
+.right-margin{
+    margin-right:15px
+}
+.materialize-textarea.remove-bottom-padding-and-margin{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.additional-top-margin-icon{
+    margin-top: 20px;
+}
+.display-inline{
+    display: inline
+}
+.additional-margin{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.additional-padding{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.additional-border{
+    border-left: 50px;
+    border-right: 50px;
+}
+.auto{
+    margin: auto;
+    text-align: center;
+}
+  /* label color */
+   .input-field label {
+     color:black;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #3e2723;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #3e2723;
+     box-shadow: 0 1px 0 0 #3e2723;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #3e2723;
+     box-shadow: 0 1px 0 0 #3e2723;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #3e2723;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #3e2723;
+   }
+
+   /* label focus color */
+    .input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+     color: black !important;
+    }
+
+/* label underline focus color */
+    .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+     border-bottom: 1px solid #3e2723 !important;
+     box-shadow: 0 1px 0 0 #3e2723 !important;
+    }
+
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+border: 2px solid #3e2723;
+}
+
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+background-color: #3e2723;
+}
+
