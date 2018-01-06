@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import axios from "axios"
+
+
+
 
 class ContactForm extends Component {
 
@@ -17,17 +21,19 @@ class ContactForm extends Component {
         this.setState(change)
     }
 
+
+
     render() {
         return (
             <div className="row container">
-                <form className="col s12">
+                <form action={"https://formspree.io/farmbusiness2018@gmail.com"} className="col s12">
                     <div className="row">
                         <div className="input-field col s6 ">
-                            <input id="first_name" type="text" className="validate input-field" onChange={this.handleChange} />
+                            <input id="first_name" name="first-name" type="text" className="validate input-field" onChange={this.handleChange} />
                             <label for="first_name">First Name</label>
                         </div>
                         <div className="input-field col s6">
-                            <input id="last_name" type="text" className="validate input-field" onChange={this.handleChange} />
+                            <input id="last_name" name="last-name" type="text" className="validate input-field" onChange={this.handleChange} />
                             <label for="last_name">Last Name</label>
                         </div>
 
@@ -55,7 +61,7 @@ class ContactForm extends Component {
                             <label for="inquiry">Please describe your inquiry</label>
                         </div>
                     </div>
-                    <div><a className="waves-effect waves-light btn brown darken-4">Contact Me</a></div>
+                    <div><a className="waves-effect waves-light btn brown darken-4" >Contact Me</a></div>
                 </form>
             </div>
         )

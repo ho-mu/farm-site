@@ -6,7 +6,7 @@ class Footer extends Component {
             <footer className="page-footer brown darken-4">
                 <div className="footer-copyright">
                     <div className="white-text ">
-                        Last updated: December 2017
+                        Last updated: January 2018
                     </div>
                 </div>
             </footer>
