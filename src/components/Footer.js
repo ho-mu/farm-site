@@ -6,9 +6,12 @@ class Footer extends Component {
             <footer className="page-footer brown darken-4">
                 <div className="footer-copyright">
                     <div className="white-text ">
-                        Last updated: January 2018
+                        Located between Appleton and Green Bay, Wisconsin.
                     </div>
+
                 </div>
+                <div className="white-text">Last updated: January 2018</div>
+
             </footer>
         )
     }
